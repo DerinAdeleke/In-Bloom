@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse upcoming and past In Bloom events exploring modern relationships and intimacy.">
+  <title>Events – In Bloom</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-content">
+      <a href="../index.html" class="site-logo">In Bloom</a>
+      
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      
+      <nav class="site-nav">
+        <a href="../index.html">Home</a>
+        <a href="index.html">Events</a>
+        <a href="../about/index.html">About</a>
+        <a href="../contact/index.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    
+    <!-- Page Header -->
+    <section class="section">
+      <div class="container">
+        <h1 class="text-center">Events</h1>
+        <p class="text-center text-large text-muted" style="max-width: 700px; margin: var(--space-md) auto 0;">
+          Join us for intimate conversations with thought leaders, therapists, writers, 
+          and cultural observers exploring what it means to love and connect today.
+        </p>
+      </div>
+    </section>
+
+    <!-- Filter Buttons -->
+    <section class="section" style="padding-top: 0;">
+      <div class="container">
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-filter="all">All Events</button>
+          <button class="filter-btn" data-filter="upcoming">Upcoming</button>
+          <button class="filter-btn" data-filter="past">Past</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Upcoming Events -->
+    <section id="upcoming-events" class="events-section">
+      <div class="container">
+        <h2 class="events-section-title">Upcoming Events</h2>
+        
+        <div class="events-grid">
+          
+          <!-- Event Card 1 -->
+          <a href="event-template.html" class="event-card card">
+            <div class="event-date">Thursday, February 13, 2025</div>
+            <h3 class="card-title">Love Languages in the Digital Age</h3>
+            <div class="card-meta">
+              <span class="card-meta-item">7:00 PM EST</span>
+              <span class="card-meta-item">Brooklyn, NY</span>
+            </div>
+            <p class="event-speaker">Speaker TBA</p>
+            <p class="card-description">
+              How do we express and receive love when so much of our connection happens through screens?
+            </p>
+          </a>
+
+          <!-- Event Card 2 -->
+          <a href="event-template.html" class="event-card card">
+            <div class="event-date">Wednesday, March 19, 2025</div>
+            <h3 class="card-title">Dating Intentionally</h3>
+            <div class="card-meta">
+              <span class="card-meta-item">6:30 PM EST</span>
+              <span class="card-meta-item">Virtual (Zoom)</span>
+            </div>
+            <p class="event-speaker">Maya Rodriguez, Dating Coach</p>
+            <p class="card-description">
+              Moving beyond swipes: building authentic connections and knowing what you truly want.
+            </p>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Past Events -->
+    <section id="past-events" class="events-section">
+      <div class="container">
+        <h2 class="events-section-title">Past Events</h2>
+        
+        <div class="events-grid">
+          
+          <!-- Event Card 1 -->
+          <div class="event-card card">
+            <div class="event-date">July 26, 2025</div>
+            <h3 class="card-title">Conversations on Modern Dating</h3>
+            <div class="card-meta">
+              <span class="card-meta-item">High Street Place Food Hall</span>
+              <span class="card-meta-item">Boston, MA</span>
+            </div>
+            <p class="card-description">
+              An intimate gathering for women navigating modern dating. Featured guided discussion on dating clarity, 
+              intention-setting activities, and meaningful conversations about emotional self-trust and decision-making.
+            </p>
+            <p class="text-small text-muted mt-sm">
+              Sponsored by The Fix Botanicals, CandleLux, and High Street Place
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="section-lg" style="background-color: var(--color-background-alt);">
+      <div class="container container-narrow text-center">
+        <h2>Never miss an event</h2>
+        <p class="text-muted mb-lg">
+          Subscribe to stay informed about upcoming conversations and exclusive insights.
+        </p>
+        <a href="../index.html#newsletter" class="btn btn-primary">Join our list</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div>
+        <div class="footer-brand">In Bloom</div>
+        <p class="footer-tagline">
+          A space for meaningful conversations about love, connection, and intimacy in modern life.
+        </p>
+        
+        <div class="footer-social">
+          <a href="https://instagram.com/inbloom" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="https://twitter.com/inbloom" target="_blank" rel="noopener noreferrer">Twitter</a>
+          <a href="mailto:hello@inbloom.example">Email</a>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2025 In Bloom. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="../assets/js/main.js"></script>
+
+</body>
+</html>

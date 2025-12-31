@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="In Bloom is a curated conversation and event series exploring modern love, dating, relationships, and intimacy in the digital age.">
+  <title>In Bloom – Conversations on Modern Love & Relationships</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-content">
+      <a href="index.html" class="site-logo">In Bloom</a>
+      
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="events/index.html">Events</a>
+        <a href="about/index.html">About</a>
+        <a href="contact/index.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container container-narrow">
+        <h1 class="hero-title">In Bloom</h1>
+        <p class="hero-subtitle">
+          A curated conversation series exploring modern love, dating, relationships, and intimacy in the digital age.
+        </p>
+        <div class="btn-group" style="justify-content: center;">
+          <a href="#newsletter" class="btn btn-primary">Join the list</a>
+          <a href="events/index.html" class="btn btn-secondary">View events</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Next Event Teaser -->
+    <section class="section">
+      <div class="container container-narrow">
+        <h2 class="text-center mb-lg">Next Event</h2>
+        
+        <div class="card">
+          <div class="event-date">Thursday, February 13, 2025</div>
+          <h3 class="card-title">Love Languages in the Digital Age</h3>
+          <div class="card-meta">
+            <span class="card-meta-item">7:00 PM – 9:00 PM EST</span>
+            <span class="card-meta-item">Brooklyn, NY</span>
+          </div>
+          <p class="event-speaker">Speaker TBA</p>
+          <p class="card-description">
+            How do we express and receive love when so much of our connection happens through screens? 
+            Join us for an evening exploring communication, vulnerability, and what it means to be present in modern relationships.
+          </p>
+          <a href="events/event-template.html" class="card-link">Learn more →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Past Event Highlight -->
+    <section class="section" style="background-color: var(--color-background-alt);">
+      <div class="container container-narrow">
+        <h2 class="text-center mb-md">Past Event</h2>
+        <p class="text-center text-muted mb-lg">
+          In Bloom launched with a thoughtful conversation that brought together curious minds
+        </p>
+        
+        <div class="card">
+          <div class="event-date">July 26, 2025</div>
+          <h3 class="card-title">Conversations on Modern Dating</h3>
+          <div class="card-meta">
+            <span class="card-meta-item">High Street Place, Boston, MA</span>
+            <span class="card-meta-item">2 hours</span>
+          </div>
+          <p class="card-description">
+            Our inaugural event brought together women for an intimate gathering focused on dating clarity, 
+            decision-making, and emotional self-trust. Attendees engaged in guided discussion, intention-setting, 
+            and real conversations about navigating modern dating with confidence and authenticity.
+          </p>
+          <p class="text-small text-muted mt-sm">
+            In partnership with The Fix Botanicals, CandleLux, and High Street Place
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Partnerships -->
+    <section class="section">
+      <div class="container container-narrow">
+        <h2 class="text-center mb-md">In partnership with</h2>
+        <p class="text-center text-muted mb-lg">
+          Thoughtful collaborators who help make these conversations possible
+        </p>
+        
+        <div class="partners-scroll">
+          <div class="partners-track">
+            <!-- First set of logos -->
+            <img src="assets/img/logos/AIRI Lettering_Black_Primary A.png" alt="AIRI" class="partner-logo">
+            <img src="assets/img/logos/The Fix Botanicals Logo.png" alt="The Fix Botanicals" class="partner-logo">
+            <img src="assets/img/logos/Image 12-30-25 at 9.04 PM.jpg" alt="Partner" class="partner-logo">
+            <img src="assets/img/logos/Image 12-30-25 at 9.06 PM.jpg" alt="Partner" class="partner-logo">
+            <!-- Duplicate set for seamless loop -->
+            <img src="assets/img/logos/AIRI Lettering_Black_Primary A.png" alt="AIRI" class="partner-logo">
+            <img src="assets/img/logos/The Fix Botanicals Logo.png" alt="The Fix Botanicals" class="partner-logo">
+            <img src="assets/img/logos/Image 12-30-25 at 9.04 PM.jpg" alt="Partner" class="partner-logo">
+            <img src="assets/img/logos/Image 12-30-25 at 9.06 PM.jpg" alt="Partner" class="partner-logo">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Signup -->
+    <section class="section-lg" id="newsletter">
+      <div class="container container-narrow">
+        <h2 class="text-center">Stay Connected</h2>
+        <p class="text-center text-muted mb-md">
+          Be the first to hear about upcoming events, speaker announcements, and thoughtful reflections on modern relationships.
+        </p>
+        
+        <form 
+          class="newsletter-form" 
+          action="mailto:hello@inbloom.example?subject=Newsletter Signup" 
+          method="post" 
+          enctype="text/plain"
+        >
+          <div class="form-group">
+            <input 
+              type="email" 
+              name="email" 
+              id="email" 
+              class="form-input" 
+              placeholder="Your email address" 
+              required 
+              aria-label="Email address"
+            >
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </div>
+          <p class="form-note text-center">
+            We respect your privacy. Unsubscribe at any time.
+          </p>
+        </form>
+        
+        <p class="text-center text-small text-muted mt-md">
+          Prefer to email directly? Reach out at <a href="mailto:hello@inbloom.example" style="color: var(--color-accent);">hello@inbloom.example</a>
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div>
+        <div class="footer-brand">In Bloom</div>
+        <p class="footer-tagline">
+          A space for meaningful conversations about love, connection, and intimacy in modern life.
+        </p>
+        
+        <div class="footer-social">
+          <a href="https://instagram.com/inbloom" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="https://twitter.com/inbloom" target="_blank" rel="noopener noreferrer">Twitter</a>
+          <a href="mailto:hello@inbloom.example">Email</a>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2025 In Bloom. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
